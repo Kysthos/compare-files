@@ -1,0 +1,19 @@
+{
+  "name": "compare-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Sebastian Banaszkiewicz",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "rimraf": "^3.0.2"
+  }
+}

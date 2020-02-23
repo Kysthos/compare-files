@@ -24,8 +24,8 @@ When required from another module, it returns a function of following signature:
 
 `compare(file1, file2[, bytesToRead])`
 * `file1 {String}` path to the first file
-* `file2 ${String}` path to the second file
-* `bytesToRead ${Integer}` number of bytes to compare at a time, default: `1`.
+* `file2 {String}` path to the second file
+* `bytesToRead {Integer}` number of bytes to compare at a time, default: `1`.
   
 Returns a `Promise` that resolves to `true` or `false`.
 

@@ -1,11 +1,11 @@
 This was written just as an exercise. 
 
-Compares two files to check if they have the same content like `cmp`.
+Compares two files to check if they have the same content (like `cmp`).
 
 It can be used as a required module or directly from the terminal.
 
 Help screen for the terminal use:
-```js
+```
 index.js <file1> <file2> [arg]
 
 check if two files are identical
@@ -27,7 +27,7 @@ When required from another module, it returns a function of following signature:
 * `file2 ${String}` path to the second file
 * `bytesToRead ${Integer}` number of bytes to compare at a time, default: `1`.
   
-Returns a `Promise`.
+Returns a `Promise` that resolves to `true` or `false`.
 
 ```js
 const compare = require('./index')
